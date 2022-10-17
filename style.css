@@ -37,7 +37,7 @@ header {
 }
 main {
   padding: 30px;
-  margin: 30px;
+  margin: 10px;
 }
 main img {
   border-radius: 5px;
@@ -70,7 +70,7 @@ main h3 {
   padding: 50px 30px;
   text-align: center;
   justify-content: center;
-  margin: 0px 30px;
+  margin: 0px 5px;
 }
 .card {
   margin-bottom: 30px;
