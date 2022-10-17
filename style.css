@@ -30,12 +30,14 @@ header {
   overflow-x: hidden;
 }
 .header-btn button {
-  width: 400px;
+  width: 380px;
   display: block;
   margin-top: 10px;
+  overflow-x: hidden;
 }
 main {
   padding: 30px;
+  margin: 30px;
 }
 main img {
   border-radius: 5px;
@@ -68,12 +70,13 @@ main h3 {
   padding: 50px 30px;
   text-align: center;
   justify-content: center;
+  margin: 0px 30px;
 }
 .card {
   margin-bottom: 30px;
   box-shadow: 1px 2px 3px 1px rgb(221, 220, 220);
   text-align: left;
-  width: 26rem;
+  width: 24rem;
 }
 .card button {
   margin-bottom: 10px;
