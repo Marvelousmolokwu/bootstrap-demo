@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+h2 {
+  font-weight: bolder;
+}
+p {
+  font-size: 15px;
+}
+.after-nav {
+  margin-top: 50px;
+  text-align: center;
+}
+.container-fluid {
+  padding-top: 10px;
+}
+header {
+  padding: 40px 30px;
+  background-color: #212529;
+  color: white;
+  max-width: 100%;
+  margin: 0px;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.header-btn button {
+  width: 420px;
+  display: block;
+  margin-top: 10px;
+}
+main {
+  padding: 30px;
+}
+main img {
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+main h3 {
+  font-size: 20px;
+}
+.review {
+  margin-top: 50px;
+  background-color: rgb(240, 239, 239);
+  padding: 50px;
+  text-align: center;
+}
+
+.review-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.review-name img {
+  border-radius: 100%;
+}
+.review h6 {
+  margin-top: 5px;
+}
+.blog-post {
+  padding: 50px 30px;
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  margin-bottom: 30px;
+  box-shadow: 1px 2px 3px 1px rgb(221, 220, 220);
+  text-align: left;
+  width: 26rem;
+}
+.card button {
+  margin-bottom: 10px;
+}
+.blog-profile {
+  display: flex;
+}
+.blog-profile img {
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.form {
+  background-color: rgb(57, 57, 230);
+  text-align: center;
+  color: white;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 1px rgb(118, 118, 221);
+}
+footer {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer ul {
+  text-decoration: underline;
+
+  letter-spacing: normal;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+@media screen and (min-width: 620px) {
+  .header-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .header-btn button {
+    width: 200px;
+    text-align: center;
+  }
+  header {
+    padding: 50px 150px;
+  }
+  .part-1 {
+    width: 700px;
+  }
+  .part-2a {
+    display: flex;
+    width: 500px;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .part-2b {
+    display: flex;
+    width: 500px;
+    gap: 40px;
+  }
+
+  .second-part {
+    display: flex;
+  }
+  .card {
+    width: 19rem;
+  }
+  .blog-cards {
+    display: flex;
+    gap: 30px;
+  }
+  .form {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 960px) {
+  header {
+    padding: 40px 100px;
+  }
+  .container-fluid {
+    padding: 10px 100px;
+  }
+  .nav-insider {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .header-btn {
+    padding-left: 0px;
+    margin-left: -240px;
+  }
+  .after-nav {
+    width: 700px;
+    text-align: left;
+  }
+  header .header-img {
+    background-color: #212529;
+    width: 500px;
+    height: 230px;
+    margin-top: 60px;
+    background-image: url(https://images.unsplash.com/photo-1604187349790-ecd899cf38eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8M2QlMjBnbGFzc2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  main {
+    padding: 30px 100px;
+  }
+  .part-1 {
+    width: 300px;
+  }
+  .second-part {
+    gap: 50px;
+  }
+  .part-2a {
+    width: 700px;
+  }
+  .part-2b {
+    width: 700px;
+  }
+  .review {
+    padding: 100px 250px;
+  }
+  .card {
+    width: 20rem;
+  }
+  .blog-post {
+    padding: 30px 100px;
+  }
+  .blog-header {
+    padding: 20px 200px;
+  }
+  .blog-cards {
+    justify-content: center;
+  }
+  .form {
+    margin: 0px 160px;
+    padding: 20px 300px;
+  }
+  footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+  }
+}
